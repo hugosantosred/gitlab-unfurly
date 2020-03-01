@@ -1,0 +1,13 @@
+.git
+Dockerfile
+docker-compose.yml
+.DS_Store
+.gitignore
+README.md
+env.*
+.env
+requirements.in
+test-requirements*
+test_unfurl_message.py
+docs/
+__pycache__

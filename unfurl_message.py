@@ -127,7 +127,7 @@ def get_issues_info(session, path_info):
         fields.append(
             {
                 "title": "Milestone",
-                "value": f"<{milestone['web_url']}|{milestone['title']}>",
+                "value": f"<{milestone.get('web_url')}|{milestone['title']}>",
                 "short": "true",
             }
         )
@@ -204,7 +204,7 @@ def get_merge_requests_info(session, path_info):
         fields.append(
             {
                 "title": "Milestone",
-                "value": f"<{milestone['web_url']}|{milestone['title']}>",
+                "value": f"<{milestone.get('web_url')}|{milestone['title']}>",
                 "short": "true",
             }
         )

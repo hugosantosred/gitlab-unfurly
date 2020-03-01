@@ -5,3 +5,5 @@ requests
 kiwi-structlog-config
 structlog
 bleach
+flask
+gunicorn

@@ -1,8 +1,7 @@
-# GitLab Unfurly
+# GitLab Unfurly (Flask Edition)
 
-Serverless Slack bot for unfurling GitLab URLs.
+Flask Slack bot for unfurling GitLab URLs.
 
-[![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com) 
 [![Python: 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://python.org) 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black) 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/kiwicom/gitlab-unfurly/blob/master/LICENSE)
@@ -13,17 +12,18 @@ Serverless Slack bot for unfurling GitLab URLs.
 
 ## Usage
 
-Deploy on [AWS](https://aws.amazon.com/) using [Serverless](https://serverless.com) 
-framework.
+Clone to any server
 
-Provide these environment variables:
+Create a .env file in the same directory and provide these environment variables
+(Copy env.example to .env):
 
 - `GITLAB_URL`
 - `GITLAB_TOKEN`
 - `SLACK_TOKEN`
 - `SLACK_CLIENT_ID`
 - `SLACK_CLIENT_SECRET`
-- `AWS_REGION`
+
+Run with docker-compose up -d --build
 
 ## Contributing
 
